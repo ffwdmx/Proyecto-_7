@@ -1,3 +1,25 @@
+# Entorno virtual
+vehicles_env/
+venv/
+env/
+
+# Datos sensibles
+*.csv
+*.xlsx
+data/raw/*
+!data/raw/.gitkeep
+
+# Variables de entorno
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -74,6 +96,12 @@ docs/_build/
 # PyBuilder
 .pybuilder/
 target/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
 
 # Jupyter Notebook
 .ipynb_checkpoints
