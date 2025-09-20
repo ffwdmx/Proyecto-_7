@@ -6,8 +6,7 @@ env/
 # Datos sensibles
 *.csv
 *.xlsx
-data/raw/*
-!data/raw/.gitkeep
+
 
 # Variables de entorno
 .env
